@@ -6,7 +6,7 @@ import Service from './Screens/Service';
 export default function App() {
   return (
     <div>
-      <Service/>
+
     </div>
   )
 }
