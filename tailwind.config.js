@@ -8,10 +8,12 @@ module.exports = withMT({
         Poppins : 'Poppins'
       },
       colors : {
-        primary : "#FF4F00"
+        primary : "#FF4F00",
+        navy :"#090C22"
       }
     },
   },
-  plugins: [],
+  plugins: [    require('daisyui'),
+  ],
 })
 

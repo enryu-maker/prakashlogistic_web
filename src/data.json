@@ -1,0 +1,14 @@
+{
+    "top_bar":{
+        "location":"2500 Southbranch Blvd A, United States",
+        "time": "Mon - Sat: 8 am - 5 pm, Sunday: CLOSED"
+    },
+    "home":{
+        "slider":[
+            {
+                "title":"Legend 1",
+                "url":"Images/plane.jpg"
+            }
+        ]
+    }
+}
