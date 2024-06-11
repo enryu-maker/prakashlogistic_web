@@ -1,7 +1,7 @@
 import React from "react";
 import pic1 from "../Images/1.png";
-import { CIcon } from '@coreui/icons-react';
-import {cisTriangle} from '@coreui/icons-react';
+
+
 
 function Card() {
   return (
@@ -10,7 +10,7 @@ function Card() {
         <div className="w-[80%] object-contain justify-center content-center m-auto flex item-end flex-row">
           <div className="flex item-end h-full align-bottom items-baseline"><div className="flex align-bottom text-base">a</div></div>
           <img src={pic1}></img>
-          <CIcon icon={cisTriangle} />
+
 
           <div className="flex flex-col align-bottom">a</div>
         </div>
@@ -19,7 +19,7 @@ function Card() {
         </div>
       </div>
     </div>
-  );
+  ); 
 }
 
 
