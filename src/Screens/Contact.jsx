@@ -46,9 +46,14 @@ export function Contact() {
               <p className='text-lg font-semibold font-Poppins text-blue-gray-900 py-1'>Office Location:</p>
               <p className='text-md font-normal font-Poppins text-gray-800 '>1, Opposite Ceat Ltd, Someshwar Colony, Satpur MIDC, Nashik - 422007</p>
             </div>
+
           </div>
         </div>
-      </div>
+      </div>            <div className='flex w-[70%] flex-col justify-center items-center h-[50vh] bg-gray-500 mb-10 shadow-lg '>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3749.1965705057232!2d73.72167507539194!3d20.00026298140406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDAwJzAxLjAiTiA3M8KwNDMnMjcuMyJF!5e0!3m2!1sen!2sin!4v1718195353608!5m2!1sen!2sin"
+      className='w-full h-full'
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div>
+
     </div>
   );
 }
