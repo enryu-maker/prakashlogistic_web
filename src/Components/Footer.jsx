@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
- 
+import { IMAGE } from '../Assets/Images';
+
 const LINKS = [
   {
     title: "Product",
@@ -22,9 +23,7 @@ export function Footer() {
     <footer className="relative w-full">
       <div className="mx-auto w-full max-w-screen px-8 py-8">
         <div className="grid grid-cols-1 justify-between gap-4 md:grid-cols-2">
-          <Typography variant="h5" className="mb-6">
-            Material Tailwind
-          </Typography>
+          <img src={IMAGE.pl} className="w-1/3 h-1/2"></img>
           <div className="grid grid-cols-3 justify-between gap-4">
             {LINKS.map(({ title, items }) => (
               <ul key={title}>
@@ -56,7 +55,7 @@ export function Footer() {
             variant="small"
             className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
           >
-            &copy; {currentYear} <a href="https://material-tailwind.com/">Material Tailwind</a>. All
+            &copy; {currentYear} <a href="https://material-tailwind.com/">NerdTech</a>. All
             Rights Reserved.
           </Typography>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">

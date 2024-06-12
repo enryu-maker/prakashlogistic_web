@@ -39,9 +39,10 @@ export function Caro() {
               <Button size="lg" className="bg-deep-orange-600">
                 Explore More
               </Button>
+              <a href="/contact">
               <Button size="lg" className="text-deep-orange-600" variant="text">
                 Contact us
-              </Button>
+              </Button></a>
             </div>
           </div>
         </div>
@@ -74,9 +75,10 @@ export function Caro() {
               <Button size="lg" className="bg-deep-orange-600">
                 Explore More
               </Button>
+              <a href="/contact">
               <Button size="lg" className="text-deep-orange-600" variant="text">
                 Contact us
-              </Button>
+              </Button></a>
             </div>
           </div>
         </div>

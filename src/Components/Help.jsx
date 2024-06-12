@@ -11,19 +11,25 @@ function Help() {
           <p>Need any Help?</p>
           <p>Get a Free Consultation</p>
           <div className="w-full flex h-fit items-center">
-            <div className="p-2 rounded-full bg-deep-orange-600 w-fit h-fit flex items-center justify-center my-2">
-              <CallIcon className="text-white " />
+            <div className="p-2 py-2 rounded-full bg-deep-orange-600 w-fit h-fit flex items-center align-middle justify-center my-2">
+             <a href='tel:917773972197' className='w-fit h-fit flex items-center align-middle justify-center'><CallIcon className="text-white " /></a> 
             </div>
             <div className="flex flex-col ml-5">
               <p className="font-thin text-base">Have any Question?</p>
               <p className="text-lg font-light flex items-center text-white">
-              +91 1234567890
+
+              <a href='tel:+917773972197' className='text-md font-normal '>+91 7773972197
+              </a>
+
             </p>
             </div>
             
           </div>
-          <button className="bg-deep-orange-600 p-2 rounded-lg px-4 w-fit h-fit justify-center text-center text-white">
-            <p className="text-base">Contact Us</p>
+
+          <button className="bg-deep-orange-600 p-2 rounded-lg px-4  w-fit h-fit justify-center text-center text-white">
+            
+            <a href='tel:+917773972197' className='font-normal text-base '><p className="text-base">Contact Us</p>
+              </a>
           </button>
         </div>
       </div></div>

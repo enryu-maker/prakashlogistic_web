@@ -13,7 +13,7 @@ export default function Bar() {
     <div className="hidden sm:flex w-full bg-navy p-2 flex-row justify-end items-center">
       <div className="flex flex-row items-center mr-10">
         <LocationOnOutlinedIcon className="text-red-500" />
-        <p className="text-white font-light pl-1">{data.top_bar.location}</p>
+        <p className="text-white font-light pl-1">Someshwar Colony, Satpur MIDC, Nashik - 422007</p>
       </div>
       <div className="flex flex-row items-center mr-10">
         <AccessTimeOutlinedIcon className="text-red-500" />

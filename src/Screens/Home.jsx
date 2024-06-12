@@ -182,8 +182,8 @@ export function Home() {
                     </p>
                   </div>
                   <div className="flex justify-end align-middle">
-                    <button className="bg-deep-orange-600 p-2 rounded-lg px-4 w-fit h-fit justify-center text-center text-white">
-                      ABOUT US
+                    <button  className="bg-deep-orange-600 p-2 rounded-lg px-4 w-fit h-fit justify-center text-center text-white">
+                      <a href="/about">ABOUT US</a>
                     </button>
                   </div>
                 </div>
@@ -216,6 +216,7 @@ export function Home() {
             </div>
           </div>
           <div className="flex flex-row justify-center">
+            <div className="flex flex-row align-middle ">
             {
               services?.map((item, index) => (
                 <Card
@@ -226,6 +227,8 @@ export function Home() {
               ))
             }
           </div>
+          </div>
+          
         </div>
       </div>
 
