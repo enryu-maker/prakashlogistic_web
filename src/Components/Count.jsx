@@ -97,21 +97,21 @@ function Count() { const CountUpAnimation = ({
     >
       <div className=" text-start text-5xl">
         <h1 className="text-deep-orange-600 text-center">
-          <CountUpAnimation initialValue={0} targetValue={1000} text="+" />
+          <CountUpAnimation initialValue={0} targetValue={112} text="+" />
         </h1>
         <h1 className="text-xl text-center text-black">
-          Project's Completed
+          Vehicals
         </h1>
       </div>
       <div className=" text-start text-5xl ">
         <h1 className="text-deep-orange-600 text-center">
-          <CountUpAnimation initialValue={0} targetValue={100} text="+" />
+          <CountUpAnimation initialValue={0} targetValue={140} text="+" />
         </h1>
         <h1 className="text-xl text-center text-black">Best Employees</h1>
       </div>
       <div className=" text-start text-5xl ">
         <h1 className="text-deep-orange-600 text-center">
-          <CountUpAnimation initialValue={0} targetValue={500} text="+" />
+          <CountUpAnimation initialValue={0} targetValue={148} text="+" />
         </h1>
         <h1 className="text-xl text-center text-black">
           World Wide Clients
@@ -119,9 +119,9 @@ function Count() { const CountUpAnimation = ({
       </div>
       <div className=" text-start text-5xl ">
         <h1 className="text-deep-orange-600 text-center">
-          <CountUpAnimation initialValue={0} targetValue={10} text="+" />
+          <CountUpAnimation initialValue={0} targetValue={100} text="+" />
         </h1>
-        <h1 className="text-xl text-center text-black">World Awards</h1>
+        <h1 className="text-xl text-center text-black">Daily Delivery</h1>
       </div>
     </div>
   </div></div>

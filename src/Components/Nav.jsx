@@ -8,6 +8,7 @@ import {
   Card,
 } from "@material-tailwind/react";
 import Bar from "./Bar";
+import { IMAGE } from "../Assets/Images";
 
 
 export function Nav() {
@@ -76,7 +77,7 @@ export function Nav() {
             href="#"
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
-            Material Tailwind
+            <img src={IMAGE.pl} className="h-[60px]"/>
           </Typography>
           
           <div className="flex items-center gap-">

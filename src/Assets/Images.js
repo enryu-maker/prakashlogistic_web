@@ -15,5 +15,7 @@ export const IMAGE = {
     ptl : require('../Assets/Image/ptl.jpeg'),
     lms : require('../Assets/Image/lms.jpeg'),
     pm : require('../Assets/Image/pm.jpeg'),
+    pl : require('../Assets/Image/PL.png'),
+
 
 }

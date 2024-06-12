@@ -20,9 +20,39 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 import Count from "../Components/Count";
 import Help from "../Components/Help";
+import { IMAGE } from "../Assets/Images";
 
 export function Home() {
-
+  const services = [
+    {
+      id: 1,
+      icon: IMAGE.ptl,
+      name: "PTL  - Part Truck Load",
+      location: 'Nashik to All Over India',
+      description: "Efficient and Reliable Trucking Solutions: From Nashik to Anywhere in India. Our comprehensive transportation service ensures safe and timely delivery of your goods, whether it's a single pallet or a full truckload. With a focus on professionalism and customer satisfaction, we offer competitive rates and personalized solutions to meet your shipping needs. Trust us to handle your cargo with care and precision, delivering peace of mind every mile of the journey."
+    },
+    {
+      id: 2,
+      icon: IMAGE.ftl,
+      name: "FTL -  Full Truck Load",
+      location: 'Bhiwandi - Pune - Gujarat',
+      description: "Seamless FTL Solutions: Covering the Nation from Nashik. Our Full Truck Load (FTL) service offers you the entire truck for your cargo, ensuring maximum efficiency and reliability. With a fleet of well-maintained vehicles and experienced drivers, we guarantee secure transportation for your goods from Nashik to any destination across India. Enjoy peace of mind knowing that your FTL shipments are in capable hands, with timely deliveries and competitive rates as our commitment to your satisfaction."
+    },
+    {
+      id: 3,
+      icon: IMAGE.lms,
+      name: "Connect for Last - Mile Services Work",
+      location: 'Nashik City',
+      description: "For Last-Mile Excellence, Connect with Us! Beyond transporting your goods from Nashik to destinations nationwide, we specialize in last-mile services, ensuring your cargo reaches its final destination swiftly and securely. Our dedicated team and robust network enable us to navigate through urban areas and remote locations alike, guaranteeing prompt delivery and customer satisfaction. Partner with us for reliable last-mile solutions that complete the journey seamlessly, every time."
+    },
+    {
+      id: 4,
+      icon: IMAGE.pm,
+      name: "Packers and Movers",
+      location: 'Nashik to All Over India',
+      description: "Effortless Relocation with Our Packers and Movers Service! Whether you're moving your home or office, our expert packers and movers handle every aspect of your relocation with utmost care and precision. From packing fragile items to disassembling and reassembling furniture, we ensure a smooth transition to your new location, whether it's within Nashik or across India. With our reliable team and comprehensive moving solutions, rest assured your belongings are in safe hands, making your move stress-free and hassle-free."
+    },
+  ]
   return (
     <div className="relative ">
       <div className="w-full h-full z-0">
@@ -186,26 +216,15 @@ export function Home() {
             </div>
           </div>
           <div className="flex flex-row justify-center">
-            <Card
-              title="SEA TRANSPORTATION"
-              dec="Intrinsicly exploit e-business imperative with emerging human capital."
-              img={pic1}
-            />
-            <Card
-              title="AIR TRANSPORTATION"
-              dec="Intrinsicly exploit e-business imperative with emerging human capital."
-              img={pic2}
-            />
-            <Card
-              title="WAREHOUSING"
-              dec="Intrinsicly exploit e-business imperative with emerging human capital."
-              img={pic3}
-            />
-            <Card
-              title="ROAD TRANSPORTATION"
-              dec="Intrinsicly exploit e-business imperative with emerging human capital."
-              img={pic1}
-            />
+            {
+              services?.map((item, index) => (
+                <Card
+                  title={item?.name}
+                  dec={item?.description}
+                  img={item?.icon}
+                />
+              ))
+            }
           </div>
         </div>
       </div>

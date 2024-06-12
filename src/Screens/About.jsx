@@ -1,6 +1,9 @@
 import React from 'react'
 import { IMAGE } from '../Assets/Images'
 import { Button } from '@material-tailwind/react'
+import VerifiedIcon from "@mui/icons-material/Verified";
+import truck from "../Images/truck.jpg";
+import Help from '../Components/Help';
 
 export function About() {
     const partner = [
@@ -47,47 +50,77 @@ export function About() {
     return (
         <div className='w-full h-auto justify-center flex flex-col items-center'>
             <div className=' bg-blue-gray-200 h-[350px] w-full ' />
-            <div className='flex w-[78%] flex-col justify-evenly items-center h-[100vh]'>
-                <div className='h-[50vh] w-full flex justify-evenly items-start'>
-                    <img src={IMAGE[1]} />
-                    <div className='flex flex-col items-center justify-between'>
-                        <div className=' rounded-full h-[220px] flex flex-col justify-center border-[5px] border-primary items-center w-[220px] '>
-                            <p className=' text-8xl font-Poppins text-primary'>5</p>
-                            <p className=' text-xl font-semibold font-Poppins text-blue-gray-900 '>Years Experience</p>
+            <div className="w-full h-[50%] align-middle flex flex-row justify-center p-3 rounded-xl">
+                <div className="w-2/3 h-[50vh] bg-white shadow-lg flex flex-row gap-5 justify-start rounded-xl">
+                    <div
+                        className="bg-gray-500 w-1/2 h-full flex justify-start items-end rounded-l-xl "
+                        style={{
+                            backgroundImage: `url(${truck})`,
+                            backgroundSize: "cover",
+                            backgroundRepeat: "no-repeat",
+                        }}
+                    >
+                        {/* <img
+              src={ship}
+              className="object-cover z-10 h-[2px]/2 w-1/2 border-solid border-white border-8"
+              alt="Ship"
+            /> */}
+                    </div>
+
+                    <div className="w-[50%] h-full flex">
+                        <div className="flex flex-col justify-center">
+                            <p className="text-3xl p-4 pl-2 text-black font-bold">
+                                WELCOME WORLD WIDE BEST TRANSPORT COMPANY
+                            </p>
+                            <div className="flex flex-row align-middle">
+                                <div className="inline-block h-[60px] mx-2 p-[1.5px] min-h-[1em] w-0.5 self-stretch bg-deep-orange-600 dark:bg-white/10"></div>
+                                <p className="text-xl font-normal text-black">
+                                    Competently implement efficient e-commerce without cross-unit
+                                    growth strategies.
+                                </p>
+                            </div>
+                            <div className="flex flex-col p-2">
+                                <div>
+                                    <ul>
+                                        <li className="text-lg">
+                                            <VerifiedIcon className="text-deep-orange-600 mr-2" />
+                                            Unlimited Revisions
+                                        </li>
+                                        <li className="text-lg">
+                                            <VerifiedIcon className="text-deep-orange-600 mr-2" />
+                                            Best Fitness Exercise
+                                        </li>
+                                        <li className="text-lg">
+                                            <VerifiedIcon className="text-deep-orange-600 mr-2" />
+                                            Combine Fitness and
+                                        </li>
+                                        <li className="text-lg">
+                                            <VerifiedIcon className="text-deep-orange-600 mr-2" />
+                                            Best Solutions
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <hr className="w-full h-[2px] bg-deep-orange-600 border-0 rounded md:my-5 dark:bg-gray-700" />
+                                <div className="flex flex-row w-full justify-between">
+                                    <div className="flex align-middle justify-start">
+                                        <p className="justify-start text-2xl text-black font-bold">
+                                            Want to Know About us?
+                                        </p>
+                                    </div>
+                                    <div className="flex justify-end align-middle">
+                                        <button className="bg-deep-orange-600 p-2 rounded-lg px-4 w-fit h-fit justify-center text-center text-white">
+                                            ABOUT US
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <img src={IMAGE[2]} />
-                    </div>
-                    <div className='flex flex-col justify-evenly h-full '>
-                        <p className=' text-3xl font-semibold font-Poppins text-blue-gray-900 '>WELCOME WORLD WIDE BEST</p>
-                        <p className=' text-3xl font-semibold font-Poppins text-blue-gray-900 '>LOGISTIC COMPANY</p>
-                        <p className=' text-base border-l-8 border-primary text-gray-800 font-Poppins tracking-wider '>Competently implement efficient Logistics Services <br /> without any worries.</p>
-                        <img src={IMAGE[3]} />
-                        <Button className='bg-primary w-[40%] font-Poppins tracking-widest'>Contact Now</Button>
-                    </div>
-                </div>
-                <div className='h-[20vh] w-full flex justify-evenly items-center bg-blue-gray-900 border-t-8 border-primary'>
-                    <div className=' flex flex-col'>
-                        <p className=' text-3xl font-semibold font-Poppins text-primary '>150+</p>
-                        <p className=' text-xl font-semibold font-Poppins text-white '>Daily Delivery</p>
-                    </div>
-                    <div className='h-[70%] w-[2px] bg-primary' />
-                    <div className=' flex flex-col'>
-                        <p className=' text-3xl font-semibold font-Poppins text-primary '>148+</p>
-                        <p className=' text-xl font-semibold font-Poppins text-white '>Worldwide Clients</p>
-                    </div>
-                    <div className='h-[70%] w-[2px] bg-primary' />
-                    <div className=' flex flex-col'>
-                        <p className=' text-3xl font-semibold font-Poppins text-primary '>100+</p>
-                        <p className=' text-xl font-semibold font-Poppins text-white '>Best Employees</p>
                     </div>
                 </div>
             </div>
-            <div className=' bg-primary h-[350px] w-full flex flex-col justify-evenly items-center '>
-                <p className=' text-4xl font-semibold font-Poppins text-white tracking-widest '>YOU NEED ANY HELP? GET FREE CONSULTATION</p>
-                <p className=' text-xl font-semibold font-Poppins text-white tracking-widest '>Have Any Question</p>
-                <a href='tel:+917773972197' className=' text-4xl font-semibold font-Poppins text-white tracking-widest '>+91 7773972197</a>
-                <Button className='bg-white text-primary '>Contact Now</Button>
-            </div>
+            <div><Help /></div>
+
             <div className='flex w-[78%] flex-col justify-evenly items-center h-[100vh]'>
                 <p className=' text-4xl font-semibold font-Poppins text-blue-gray-900 '>OUR DELIVERY PARTNERS</p>
                 <div className=' flex flex-wrap w-full justify-evenly items-center'>
