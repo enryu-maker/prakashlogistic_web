@@ -6,6 +6,7 @@ import { Home } from './Screens/Home';
 import { Contact } from './Screens/Contact.jsx';
 import { Service } from './Screens/Service';
 import { About } from './Screens/About.jsx';
+import { Footer } from './Components/Footer.jsx';
 
 export default function App() {
   return (
@@ -17,8 +18,8 @@ export default function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/service' element={<Service/>}/>
-
       </Routes>
+      <Footer/>
     </div>
   )
 }

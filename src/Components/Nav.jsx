@@ -28,8 +28,8 @@ export function Nav() {
         color="blue-gray"
         className="p-0 font-normal  text-base"
       >
-        <a href="#" className="flex items-center">
-          Pages
+        <a href="/" className="flex items-center">
+          Home
         </a>
       </Typography>
       <Typography
@@ -38,8 +38,19 @@ export function Nav() {
         color="blue-gray"
         className="p-0 font-normal  text-base"
       >
-        <a href="#" className="flex items-center">
-          Account
+        <a href="/service" className="flex items-center">
+          Service
+        </a>
+      </Typography>
+      
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-0 font-normal  text-base"
+      >
+        <a href="/about" className="flex items-center">
+          About
         </a>
       </Typography>
       <Typography
@@ -48,18 +59,8 @@ export function Nav() {
         color="blue-gray"
         className="p-0 font-normal  text-base"
       >
-        <a href="#" className="flex items-center">
-          Blocks
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-0 font-normal  text-base"
-      >
-        <a href="#" className="flex items-center">
-          Docs
+        <a href="/contact" className="flex items-center">
+          Contact
         </a>
       </Typography>
     </ul>
