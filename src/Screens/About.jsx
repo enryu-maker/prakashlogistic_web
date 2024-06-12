@@ -2,7 +2,7 @@ import React from 'react'
 import { IMAGE } from '../Assets/Images'
 import { Button } from '@material-tailwind/react'
 
-export default function About() {
+export function About() {
     const partner = [
         {
             id: 1,

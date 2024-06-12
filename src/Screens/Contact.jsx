@@ -1,7 +1,7 @@
 import { Button } from '@material-tailwind/react'
 import React from 'react'
 
-export default function Contact() {
+export function Contact() {
     return (
         <div className='w-full h-auto justify-center flex flex-col items-center'>
             <div className=' bg-blue-gray-200 h-[350px] w-full ' />
