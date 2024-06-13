@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import banner from "../Images/banner.png";
+import { Helmet } from "react-helmet";
 
 export function Contact() {
   const form = useRef();
