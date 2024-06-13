@@ -11,6 +11,7 @@ import bg from "../Images/bg.png";
 import Help from "../Components/Help";
 import banner from "../Images/banner.png";
 import Marquee from "react-fast-marquee";
+import { Helmet } from "react-helmet";
 
 export function Service() {
   const services = [
