@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.954c28b2.css",
+    "main.js": "/static/js/main.ab8d8d92.js",
+    "static/js/453.d48b8d4e.chunk.js": "/static/js/453.d48b8d4e.chunk.js",
+    "static/media/plane.jpg": "/static/media/plane.94a0b41286a6cf76ae1a.jpg",
+    "static/media/lms.jpeg": "/static/media/lms.62f4c777f9661a54aede.jpeg",
+    "static/media/banner.png": "/static/media/banner.694314fe966dd9cabb1f.png",
+    "static/media/ptl.jpeg": "/static/media/ptl.92bdaa2a05988d879bfd.jpeg",
+    "static/media/pm.jpeg": "/static/media/pm.c10c8341b91333e5bff9.jpeg",
+    "static/media/truck1.png": "/static/media/truck1.aa5c2d97d45c3b493bbb.png",
+    "static/media/dpworld.png": "/static/media/dpworld.50820c5c0987e7555cb0.png",
+    "static/media/1.png": "/static/media/1.1b0f7978c06e1ad78e41.png",
+    "static/media/scorpion.png": "/static/media/scorpion.8f551b251ed9bc932a21.png",
+    "static/media/ftl.png": "/static/media/ftl.727f69ad73cb4cee5933.png",
+    "static/media/bg.png": "/static/media/bg.b59001a8d5abe4eb072f.png",
+    "static/media/all-transport.jpeg": "/static/media/all-transport.288a686f7bfeb0957b56.jpeg",
+    "static/media/PL.png": "/static/media/PL.ec53c319151f358e1e34.png",
+    "static/media/2.png": "/static/media/2.6a16d5c0c966b14516fe.png",
+    "static/media/atomberg.png": "/static/media/atomberg.8dc7bba66035e7129aa2.png",
+    "static/media/lavie.png": "/static/media/lavie.bfbc652afbd7df5975a0.png",
+    "static/media/3.png": "/static/media/3.83d3ae9727e621e1760a.png",
+    "static/media/truck.jpg": "/static/media/truck.9dcf5d13dcdb20abc6e0.jpg",
+    "static/media/Siemens.png": "/static/media/Siemens.d0738174d5eb52875d4c.png",
+    "static/media/vip.png": "/static/media/vip.0a98cf31e5bf164bbe87.png",
+    "static/media/delhivery.png": "/static/media/delhivery.9c053e4cc735a1f6eb38.png",
+    "index.html": "/index.html",
+    "main.954c28b2.css.map": "/static/css/main.954c28b2.css.map",
+    "main.ab8d8d92.js.map": "/static/js/main.ab8d8d92.js.map",
+    "453.d48b8d4e.chunk.js.map": "/static/js/453.d48b8d4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.954c28b2.css",
+    "static/js/main.ab8d8d92.js"
+  ]
+}
