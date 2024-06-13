@@ -1,39 +1,41 @@
-import React from 'react'
+import React from 'react';
 import truck1 from "../Images/truck1.png";
 import CallIcon from "@mui/icons-material/Call";
+
 function Help() {
   return (
-    <div>   <div className="h-[35vh] bg-navy w-screen flex flex-row">
-        <div>
-          <img src={truck1} className="h-[35vh] w-full"></img>
-        </div>
-        <div className="text-3xl flex flex-col justify-between font-semibold align-middle text-left p-6 text-white">
+    <div className="bg-navy w-full flex flex-col md:flex-row">
+      <div className="w-full md:w-1/2 h-[35vh]">
+        <img src={truck1} className="w-full h-full object-cover" alt="Truck" />
+      </div>
+      <div className="w-full md:w-1/2 flex flex-col justify-between p-6 text-white text-center md:text-left">
+        <div className="text-3xl font-semibold">
           <p>Need any Help?</p>
           <p>Get a Free Consultation</p>
-          <div className="w-full flex h-fit items-center">
-            <div className="p-2 py-2 rounded-full bg-deep-orange-600 w-fit h-fit flex items-center align-middle justify-center my-2">
-             <a href='tel:917773972197' className='w-fit h-fit flex items-center align-middle justify-center'><CallIcon className="text-white " /></a> 
-            </div>
-            <div className="flex flex-col ml-5">
-              <p className="font-thin text-base">Have any Question?</p>
-              <p className="text-lg font-light flex items-center text-white">
-
-              <a href='tel:+917773972197' className='text-md font-normal '>+91 7773972197
-              </a>
-
-            </p>
-            </div>
-            
-          </div>
-
-          <button className="bg-deep-orange-600 p-2 rounded-lg px-4  w-fit h-fit justify-center text-center text-white">
-            
-            <a href='tel:+917773972197' className='font-normal text-base '><p className="text-base">Contact Us</p>
-              </a>
-          </button>
         </div>
-      </div></div>
-  )
+        <div className="w-full flex flex-col md:flex-row items-center md:items-start mt-4 md:mt-0">
+          <div className="p-2 rounded-full bg-deep-orange-600 flex items-center justify-center">
+            <a href='tel:917773972197' className='flex items-center justify-center'>
+              <CallIcon className="text-white" />
+            </a>
+          </div>
+          <div className="flex flex-col ml-0 md:ml-5 mt-2 md:mt-0">
+            <p className="font-thin text-base">Have any Question?</p>
+            <p className="text-lg font-light flex items-center">
+              <a href='tel:+917773972197' className='text-md font-normal text-white'>
+                +91 7773972197
+              </a>
+            </p>
+          </div>
+        </div>
+        <button className="bg-deep-orange-600 p-2 rounded-lg md:w-fit px-4 mt-4 md:mt-0 text-white">
+          <a href='tel:+917773972197' className='font-normal text-base'>
+            <p className="text-base">Contact Us</p>
+          </a>
+        </button>
+      </div>
+    </div>
+  );
 }
 
-export default Help
+export default Help;

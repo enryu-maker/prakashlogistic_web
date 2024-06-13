@@ -140,12 +140,7 @@ export function Nav() {
         <MobileNav open={openNav}>
           {navList}
           <div className="flex items-center gap-x-1">
-            <Button fullWidth variant="text" size="sm" className="text-deep-orange-600">
-              <span>Log In</span>
-            </Button>
-            <Button fullWidth size="sm" className="bg-deep-orange-600">
-              <span>Sign in</span>
-            </Button>
+            
           </div>
         </MobileNav>
       </Navbar>

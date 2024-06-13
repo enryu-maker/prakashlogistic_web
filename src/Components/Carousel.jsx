@@ -22,7 +22,7 @@ export function Caro() {
             <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+              className="mb-4 text-2xl md:text-4xl lg:text-5xl"
             >
               FAST CERTIFIED & BEST WORLD WIDE SERVICE
             </Typography>
@@ -36,11 +36,11 @@ export function Caro() {
               vectors with orthogonal.
             </Typography>
             <div className="flex gap-2">
-              <Button size="lg" className="bg-deep-orange-600">
+              <Button size="md" className="bg-deep-orange-600">
                 Explore More
               </Button>
               <a href="/contact">
-              <Button size="lg" className="text-deep-orange-600" variant="text">
+              <Button size="md" className="text-deep-orange-600" variant="text">
                 Contact us
               </Button></a>
             </div>
@@ -58,7 +58,7 @@ export function Caro() {
             <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+              className="mb-4 text-2xl md:text-4xl lg:text-5xl"
             >
               FAST CERTIFIED & BEST WORLD WIDE SERVICE
             </Typography>
@@ -72,11 +72,11 @@ export function Caro() {
               vectors with orthogonal.
             </Typography>
             <div className="flex gap-2">
-              <Button size="lg" className="bg-deep-orange-600">
+              <Button size="md" className="bg-deep-orange-600">
                 Explore More
               </Button>
               <a href="/contact">
-              <Button size="lg" className="text-deep-orange-600" variant="text">
+              <Button size="md" className="text-deep-orange-600" variant="text">
                 Contact us
               </Button></a>
             </div>

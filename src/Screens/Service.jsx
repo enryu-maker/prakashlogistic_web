@@ -10,6 +10,7 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 import bg from "../Images/bg.png";
 import Help from '../Components/Help';
 import banner from "../Images/banner.png";
+import Marquee from "react-fast-marquee";
 
 export function Service() {
   const services = [
@@ -71,14 +72,14 @@ export function Service() {
   ];
 
   return (
-    <div className="w-full h-auto justify-center flex flex-col items-center">
+    <div className="w-full h-auto flex flex-col items-center bg-white">
       <div className="relative w-full h-[350px] flex items-center justify-center" style={{
         backgroundImage: `url(${banner})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         zIndex: "10",
       }}>
-        <div className="text-center text-white">
+        <div className="text-center w-full md:w-full  md:text-start text-white px-4 md:px-20">
           <p className="text-4xl font-bold">Welcome to Our Services</p>
           <p className="text-lg font-light mt-2">Providing reliable and efficient solutions for all your needs.</p>
           <Button className="mt-4 bg-deep-orange-600">Learn More</Button>
@@ -86,44 +87,46 @@ export function Service() {
       </div>
 
       <div
-        className="z-20"
-        style={{
+        className="w-full z-20 px-4 md:px-0"
+        
+      >
+        <div className="min-h-screen w-full flex flex-col z-20 justify-center pt-16 bg-gray-100" >
+          <div className="w-full flex flex-col justify-center text-center md:py-10 md:-mt-40 pb-10 bg-gray-100" style={{
           backgroundImage: `url(${bg})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           zIndex: 10,
-        }}
-      >
-        <div className="h-[50vh] w-full flex flex-col z-20 justify-center pt-32">
-          <div className="w-full h-fit flex flex-col justify-center align-middle text-center py-10">
-            <p className="text-3xl font-bold text-black">OUR SERVICES FOR YOU</p>
+        }}> 
+            <p className="text-3xl font-bold text-black ">OUR SERVICES FOR YOU</p>
             <div className="text-center flex justify-center">
-              <p className="text-md font-light w-1/2 text-center text-black">
+              <p className="text-md font-light w-full md:w-1/2 text-center text-black">
                 Quickly optimize cooperative models for long-term high-impact ROI. Dynamically drive innovative e-commerce and distributed paradigms.
               </p>
             </div>
           </div>
-          <div className="flex flex-row justify-center items-start">
+          <div className="flex flex-wrap justify-center items-start md:gap-0 gap-36 pt-10 bg-gray-100
+          " >
             {services?.map((item, index) => (
               <Card
                 key={index}
                 title={item?.name}
                 dec={item?.description}
                 img={item?.icon}
+                alt=''
               />
             ))}
           </div>
         </div>
       </div>
 
-      <div className="h-[100vh] w-full z-0 flex items-center justify-center bg-navy">
-        <div className="flex flex-col items-start justify-center w-3/6 h-full text-white">
-          <p className="text-4xl font-bold py-2">WHY CHOOSE US</p>
-          <p className="text-xl font-thin w-2/3 pb-4">
+      <div className="min-h-screen w-full z-0 flex flex-col md:flex-row items-center justify-center bg-navy p-4 md:p-0">
+        <div className="flex flex-col items-start justify-center w-full md:w-3/6 h-full text-white">
+          <p className="text-4xl font-bold py-10 ">WHY CHOOSE US</p>
+          <p className="text-xl font-thin w-full md:w-2/3 pb-4">
             Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.
           </p>
           <div className="flex flex-col">
-            <div className="bg-white w-fit p-1 rounded-full">
+            <div className="bg-white w-fit p-1 rounded-full mb-2">
               <LocalShippingIcon className="text-deep-orange-600" />
             </div>
             <p className="text-lg font-medium pb-4">
@@ -132,7 +135,7 @@ export function Service() {
                 Enhance interactive metrics for reliable services. Proactively unleash fully researched.
               </p>
             </p>
-            <div className="bg-white w-fit p-1 rounded-full">
+            <div className="bg-white w-fit p-1 rounded-full mb-2">
               <SupportAgentOutlinedIcon className="text-deep-orange-600" />
             </div>
             <p className="text-lg font-medium pb-4">
@@ -141,7 +144,7 @@ export function Service() {
                 Enhance interactive metrics for reliable services. Proactively unleash fully researched.
               </p>
             </p>
-            <div className="bg-white w-fit p-1 rounded-full">
+            <div className="bg-white w-fit p-1 rounded-full mb-2">
               <ThumbUpAltIcon className="text-deep-orange-600" />
             </div>
             <p className="text-lg font-medium pb-4">
@@ -152,7 +155,7 @@ export function Service() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col h-1/3 w-4/12">
+        <div className="flex flex-col w-full md:w-4/12 h-full mt-4 md:mt-0">
           <LiteYouTubeEmbed
             id="RTO6i8hD6CQ"
             className="h-full w-full"
@@ -161,18 +164,18 @@ export function Service() {
         </div>
       </div>
 
-      <div><Help /></div>
+      <div className='w-full'><Help /></div>
 
-      <div className='flex w-[78%] flex-col justify-evenly items-center h-[100vh]'>
-        <p className='text-4xl font-semibold font-Poppins text-blue-gray-900'>TRUSTED BY OUR 148+ CLIENTS</p>
-        <div className='flex flex-wrap w-full justify-evenly items-center'>
+      <div className='flex flex-col w-full md:w-[78%] justify-evenly items-center min-h-screen p-4'>
+        <p className='text-4xl font-semibold font-Poppins text-blue-gray-900 text-center md:-mt-32 md:-mb-32'>TRUSTED BY OUR 148+ CLIENTS</p>
+         <Marquee gradient={true}><div className='flex flex-wrap w-full justify-evenly items-center '>
           {clients.map((item, index) => (
-            <div key={index} className='border-4 border-primary rounded-full h-[200px] w-[200px] flex justify-center items-center'>
-              <img src={item?.icon} className='object-contain h-[150px] w-[150px] rounded-full' />
+           <div key={index} className=' rounded-full h-[150px] w-[150px] md:h-[200px] md:w-[200px] flex justify-center items-center m-2'>
+              <img src={item?.icon} alt='' className='object-contain h-[120px] w-[120px] md:h-[150px] md:w-[150px] rounded-full' />
             </div>
           ))}
-        </div>
-        <p className='text-4xl font-semibold font-Poppins text-blue-gray-900'>And Many <span className='text-primary tracking-widest'>Moreeeeeeee</span></p>
+        </div></Marquee> 
+        <p className='text-4xl font-semibold font-Poppins text-blue-gray-900 md:-mt-32 md:-mb-32 text-center'>And Many <span className='text-primary tracking-widest'>Moreeeeeeee</span></p>
       </div>
     </div>
   );
