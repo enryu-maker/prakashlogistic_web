@@ -6,6 +6,7 @@ import truck from "../Images/truck.jpg";
 import Help from "../Components/Help";
 import banner from "../Images/banner.png";
 import Marquee from "react-fast-marquee";
+import { Helmet } from "react-helmet";
 
 export function About() {
   const partner = [
