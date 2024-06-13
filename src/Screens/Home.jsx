@@ -15,6 +15,7 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 import Count from "../Components/Count";
 import Help from "../Components/Help";
 import { IMAGE } from "../Assets/Images";
+import { Helmet } from "react-helmet";
 
 export function Home() {
   const services = [
@@ -54,10 +55,15 @@ export function Home() {
   return (
     <div className="relative">
       <Helmet>
-                <meta charSet="utf-8" />
-                <title>Home</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-            
+        <meta charSet="utf-8" />
+        <title>
+          Pakash Logistics: Reliable Freight and Transport Solutions
+        </title>
+        <meta
+          name="description"
+          content="Pakash Logistics offers reliable and efficient freight and transport solutions tailored to your needs. Our experienced team ensures secure and timely deliveries, whether local or international. Trust Pakash Logistics for excellence in logistics services, delivering peace of mind with every shipment"
+        />
+      </Helmet>
       <div className="w-full h-full z-0 md:w-full md:h-full">
         <Caro />
       </div>
@@ -283,7 +289,7 @@ export function Home() {
       </div>
       <div className="">
         <Help />
-      </div></Helmet>
+      </div>
     </div>
   );
 }
