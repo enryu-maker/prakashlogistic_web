@@ -19,9 +19,9 @@ const FloatingButton = () => {
   };
 
   return (
-    <div className='flex flex-col justify-center align-middle w-full h-full bg-black'>
+    <div className='flex flex-col justify-center align-middle w-full h-full bg-black '>
       <motion.div
-        className="fixed bottom-4 right-4 z-50"
+        className="fixed bottom-4 right-4 z-50 bg-green-500 rounded-full p-4 shadow-lg hover:bg-green-600 transition-colors duration-300"
         style={{ x: springX, y: springY }}
         drag
         dragElastic={0.7}
@@ -31,7 +31,6 @@ const FloatingButton = () => {
       >
         <a
           href="https://wa.me/7773972197"
-          className="bg-green-500 rounded-full p-4 shadow-lg hover:bg-green-600 transition-colors duration-300"
           target="_blank"
           rel="noopener noreferrer"
         >
