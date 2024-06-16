@@ -26,14 +26,14 @@ export function Caro() {
             <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-2xl md:text-4xl lg:text-5xl"
+              className="mb-2 text-xl md:text-4xl lg:text-5xl"
             >
               FAST CERTIFIED & INTEGRATED LOGISTICS SERVICES PROVIDER
             </Typography>
             <Typography
               variant="lead"
               color="white"
-              className="mb-12 opacity-80"
+              className="mb-12 opacity-80 text-md md:text-xl"
             >
               Professionally strategize stand-alone functionalities and
               cooperative total linkage. Objectively predominate virtual quality
