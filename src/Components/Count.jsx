@@ -70,7 +70,7 @@ function Count() {
   };
 
   return (
-    <div className="h-auto md:w-2/3 w-full md:rounded-xl md:shadow-xl bg-white flex justify-center">
+    <div className="h-auto md:w-2/3 md:max-w-fit w-full md:rounded-xl md:shadow-xl bg-white flex justify-center mt-10">
       <div
         style={{
           backgroundImage: `url(${bg})`,
@@ -78,7 +78,7 @@ function Count() {
           backgroundRepeat: 'no-repeat',
           zIndex: '10',
         }}
-        className="w-full flex flex-col md:rounded-xl md:flex-row px-4 md:px-20 py-16 gap-10 md:gap-20 justify-between border-deep-orange-600 border-y-4"
+        className="w-full flex md:w-fit flex-col md:rounded-xl md:flex-row px-4 md:px-20 py-16 gap-10 md:gap-20 justify-between border-deep-orange-600 border-y-4"
       >
         <div className="flex flex-col items-center text-5xl">
           <h1 className="text-deep-orange-600">

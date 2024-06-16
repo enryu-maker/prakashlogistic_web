@@ -106,41 +106,38 @@ export function Service() {
         </div>
       </div>
 
-      <div className="w-full z-20 px-4 md:px-0">
-        <div className="min-h-screen w-full flex flex-col z-20 justify-center pt-16 bg-gray-100">
-          <div
-            className="w-full flex flex-col justify-center text-center md:py-10 md:-mt-40 pb-10 bg-gray-100"
-            style={{
-              backgroundImage: `url(${bg})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              zIndex: 10,
-            }}
-          >
-            <p className="text-3xl font-bold text-black ">
+      <div
+        className="z-20 w-full"
+        style={{
+          backgroundImage: `url(${bg})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          zIndex: "10",
+        }}
+      >
+        <div className="h-auto w-full flex flex-col z-20 justify-center py-10">
+          <div className="w-full h-fit flex flex-col justify-center align-middle text-center py-10">
+            <p className="text-3xl font-bold text-black">
               OUR SERVICES FOR YOU
             </p>
             <div className="text-center flex justify-center">
               <p className="text-md font-light w-full md:w-1/2 text-center text-black">
-                Quickly optimize cooperative models for long-term high-impact
-                ROI. Dynamically drive innovative e-commerce and distributed
-                paradigms.
+                Quickly optimize cooperative models for long-term high-impact ROI. Dynamically drive innovative e-commerce and distributed paradigms.
               </p>
             </div>
           </div>
-          <div
-            className="flex flex-wrap justify-center items-start md:gap-0 gap-36 pt-10 bg-gray-100
-          "
-          >
-            {services?.map((item, index) => (
-              <Card
-                key={index}
-                title={item?.name}
-                dec={item?.description}
-                img={item?.icon}
-                alt=""
-              />
-            ))}
+          <div className="flex flex-col md:flex-row justify-center">
+            <div className="flex flex-wrap md:justify-between justify-center gap-20 md:gap-8 mb-10">
+              {services?.map((item) => (
+                <Card
+                  key={item.id}
+                  title={item?.name}
+                  dec={item?.description}
+                  img={item?.icon}
+                  className="min-w-[250px] max-w-[350px] "
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>
