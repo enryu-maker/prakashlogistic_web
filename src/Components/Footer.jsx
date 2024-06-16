@@ -46,7 +46,7 @@ export function Footer() {
               </a>
             </li>
           </ul>
-          <div className="py-0 flex w-72 justify-end items-center flex-col gap-0 lg:flex-row">
+          <div className="py-0 flex w-72 justify-end items-center flex-col gap-0 lg:flex-row md:text-start text-center">
             <div>
             <a href='tel:+917773972197'>
             <p className="text-white text-">+91 7773972197</p></a>
@@ -59,8 +59,8 @@ export function Footer() {
         </div>
 
         <div className="py-7 border-t border-gray-700">
-          <div className="flex items-center justify-center">
-            <span className="text-gray-400 ">
+          <div className="flex md:flex-col items-center justify-center">
+            <span className="text-gray-400">
               <a href="">PrakashLogistics</a> designed by NerdTech.
             </span>
           </div>

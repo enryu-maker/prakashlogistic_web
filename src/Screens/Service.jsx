@@ -77,7 +77,7 @@ export function Service() {
   ];
 
   return (
-    <div className="w-full h-auto flex flex-col items-center bg-white">
+    <div className="w-full h-auto flex flex-col items-center bg-white md:mt-36 mt-20">
       <Helmet>
         <meta charSet="utf-8" />
         <title>
@@ -220,7 +220,7 @@ export function Service() {
         </Marquee>
         <p className="text-4xl font-semibold font-Poppins text-blue-gray-900 md:-mt-32 md:-mb-32 text-center">
           And Many{" "}
-          <span className="text-primary tracking-widest">Moreeeeeeee</span>
+          <span className="text-primary tracking-widest">More...</span>
         </p>
       </div>
     </div>

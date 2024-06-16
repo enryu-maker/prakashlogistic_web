@@ -53,7 +53,7 @@ export function Home() {
     },
   ];
   return (
-    <div className="relative">
+    <div className="relative md:mt-36">
       <Helmet>
         <meta charSet="utf-8" />
         <title>

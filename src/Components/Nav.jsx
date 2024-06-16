@@ -68,8 +68,11 @@ export function Nav() {
   );
  
   return (
-    <div className="-m-1 max-h-[768px] w-[calc(100%+5px)] overflow-visible">
-         <Bar/>
+    <div className="-m-1 max-h-[768px] w-[calc(100%+5px)] overflow-visible fixed z-50">
+      <div className="">
+          <Bar />
+      </div>
+       
       <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
