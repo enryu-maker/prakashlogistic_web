@@ -13,7 +13,7 @@ export const IMAGE = {
     lavie : require('../Assets/Image/lavie-logo.avif'),
     ftl : require('../Assets/Image/ftl.png'),
     ptl : require('../Assets/Image/ptl.jpeg'),
-    lms : require('../Assets/Image/lms.jpeg'),
+    lms : require('../Assets/Image/lms.jpg'),
     pm : require('../Assets/Image/pm.jpeg'),
     pl : require('../Assets/Image/PL.png'),
     xpress : require('../Assets/Image/vxpress-logo.png'),
