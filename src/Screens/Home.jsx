@@ -205,7 +205,7 @@ export function Home() {
             </div>
           </div>
           <div className="flex flex-col md:flex-row justify-center">
-            <div className="flex flex-wrap md:justify-between justify-center gap-20 md:gap-8 mb-10">
+            <div className="flex flex-wrap md:justify-between justify-center gap-20 md:gap-8 mb-10 mt-10">
               {services?.map((item) => (
                 <Card
                   key={item.id}

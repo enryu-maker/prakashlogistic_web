@@ -12,7 +12,7 @@ import FloatingButton from './Components/Floatingicon.jsx';
 export default function App() {
   return (
 
-    <div className='bg-gray-50'>
+    <div className='bg-gray-50 font-Poppins'>
       <Nav/>
       <FloatingButton />
       <Routes>

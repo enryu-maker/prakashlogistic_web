@@ -95,7 +95,7 @@ export function Contact() {
               </Button>
             </form>
           </div>
-          <div className="w-full lg:w-[40%] bg-primary h-auto font-Poppins flex flex-col justify-evenly items-center p-4">
+          <div className="w-full min-w-[400px] lg:w-[40%] bg-primary h-auto font-Poppins flex flex-col justify-evenly items-center p-4">
             <p className="text-4xl font-semibold font-Poppins text-white">
               CONTACT INFORMATION
             </p>
@@ -111,17 +111,18 @@ export function Contact() {
                 +91 7773972197
               </a>
             </div>
-            <div className="w-full bg-white h-auto rounded-lg flex flex-col justify-center px-5 py-3 mb-4">
+            <div className="w-full md:min-w-[100px] bg-white h-auto rounded-lg flex flex-col justify-center px-4 py-3 mb-4">
               <p className="text-lg font-semibold font-Poppins text-blue-gray-900 py-1">
                 Mail Address:
               </p>
               <a
                 href="mailto:prakashlogistics.org@gmail.com"
-                className="text-md font-normal font-Poppins text-gray-800"
+                className="text-md font-normal font-Poppins text-gray-800 w-full "
               >
                 prakashlogistics.org@gmail.com
               </a>
             </div>
+            
             <div className="w-full bg-white h-auto rounded-lg flex flex-col justify-center px-5 py-3">
               <p className="text-lg font-semibold font-Poppins text-blue-gray-900 py-1">
                 Office Location:

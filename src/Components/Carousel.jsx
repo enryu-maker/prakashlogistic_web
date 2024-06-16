@@ -10,9 +10,9 @@ export function Caro() {
   return (
     <Carousel
       className="rounded-none h-[80vh]"
-      autoplay={true}
-      autoplayDelay={3000}
-      loop={true}
+      // autoplay={true}
+      // autoplayDelay={3000}
+      // loop={true}
 
     >
       <div className="relative h-full w-full bg-gradient-to-r from-gray-900">

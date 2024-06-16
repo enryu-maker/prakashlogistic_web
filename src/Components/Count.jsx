@@ -80,29 +80,29 @@ function Count() {
         }}
         className="w-full flex md:w-fit flex-col md:rounded-xl md:flex-row px-4 md:px-20 py-16 gap-10 md:gap-20 justify-between border-deep-orange-600 border-y-4"
       >
-        <div className="flex flex-col items-center text-5xl">
+        <div className="flex flex-col items-center text-center text-5xl">
           <h1 className="text-deep-orange-600">
             <CountUpAnimation initialValue={0} targetValue={112} text="+" />
           </h1>
-          <h1 className="text-xl text-black">Vehicles</h1>
+          <h1 className="text-xl text-black w-full text-center">Vehicles</h1>
         </div>
         <div className="flex flex-col items-center text-5xl">
           <h1 className="text-deep-orange-600">
             <CountUpAnimation initialValue={0} targetValue={140} text="+"/>
           </h1>
-          <h1 className="text-xl text-black">Best Employees</h1>
+          <h1 className="text-xl text-black w-full text-center">Best Employees</h1>
         </div>
         <div className="flex flex-col items-center text-5xl">
           <h1 className="text-deep-orange-600">
             <CountUpAnimation initialValue={0} targetValue={148} text="+" />
           </h1>
-          <h1 className="text-xl text-black">World Wide Clients</h1>
+          <h1 className="text-xl text-black w-full text-center">World Wide Clients</h1>
         </div>
         <div className="flex flex-col items-center text-5xl">
           <h1 className="text-deep-orange-600">
             <CountUpAnimation initialValue={0} targetValue={100} text="+" />
           </h1>
-          <h1 className="text-xl text-black">Daily Delivery</h1>
+          <h1 className="text-xl text-black w-full text-center">Daily Delivery</h1>
         </div>
       </div>
     </div>
