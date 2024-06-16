@@ -28,7 +28,7 @@ export function Contact() {
   };
 
   return (
-    <div className="w-full h-auto flex flex-col items-center md:mt-36 mt-20">
+    <div className="w-full h-auto flex flex-col items-center md:mt-36 ">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Contact Pakash Logistics: Get in Touch Today</title>

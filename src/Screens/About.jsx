@@ -56,7 +56,7 @@ export function About() {
   ];
 
   return (
-    <div className="w-full flex flex-col items-center bg-white md:mt-36 mt-20">
+    <div className="w-full flex flex-col items-center bg-white md:mt-36 ">
       <Helmet>
         <meta charSet="utf-8" />
         <title>About Pakash Logistics: Our Journey and Commitment</title>
