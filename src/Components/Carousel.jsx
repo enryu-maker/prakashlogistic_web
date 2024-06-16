@@ -6,9 +6,9 @@ export function Caro() {
   return (
     <Carousel
       className="rounded-none h-[80vh]"
-      autoplay={true}
-      autoplayDelay={3000}
-      loop={true}
+      // autoplay={true}
+      // autoplayDelay={3000}
+      // loop={true}
 
     >
       <div className="relative h-full w-full bg-gradient-to-r from-gray-900">
@@ -24,7 +24,7 @@ export function Caro() {
               color="white"
               className="mb-4 text-2xl md:text-4xl lg:text-5xl"
             >
-              FAST CERTIFIED & BEST WORLD WIDE SERVICE
+              FAST CERTIFIED & INTEGRATED LOGISTICS SERVICES PROVIDER
             </Typography>
             <Typography
               variant="lead"
@@ -55,23 +55,24 @@ export function Caro() {
         />
         <div className="absolute inset-0 flex items-center justify-start bg-black/75">
           <div className="w-3/4 pl-12 md:w-2/4 md:pl-20 lg:pl-32">
-            <Typography
+            {/* <Typography
               variant="h1"
               color="white"
               className="mb-4 text-2xl md:text-4xl lg:text-5xl"
             >
-              FAST CERTIFIED & BEST WORLD WIDE SERVICE
-            </Typography>
-            <Typography
+              SERVICES PROVIDED
+            </Typography> */}
+            {/* <Typography
               variant="lead"
               color="white"
               className="mb-12 opacity-80"
             >
-              Professionally strategize stand-alone functionalities and
-              cooperative total linkage. Objectively predominate virtual quality
-              vectors with orthogonal.
-            </Typography>
-            <div className="flex gap-2">
+              <div className="grid grid-cols-2">
+              <div><ul><li>Cargo Services</li><li>PTL</li></ul></div>
+              <div><ul><li>Movers & Packers</li><li>FTL</li></ul></div>
+              </div>
+            </Typography> */}
+            {/* <div className="flex gap-2">
               <Button size="md" className="bg-deep-orange-600">
                 Explore More
               </Button>
@@ -79,7 +80,7 @@ export function Caro() {
               <Button size="md" className="text-deep-orange-600" variant="text">
                 Contact us
               </Button></a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

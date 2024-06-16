@@ -90,6 +90,9 @@ export function Nav() {
               >
                 <span>Log In</span>
               </Button> */}
+            
+          
+          <a href='tel:+917773972197'>
               <Button
                 // variant="gradient"
                 size="sm"
@@ -97,6 +100,7 @@ export function Nav() {
               >
                 <span>Give a Call</span>
               </Button>
+              </a>
             </div>
             <IconButton
               variant="text"

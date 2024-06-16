@@ -148,7 +148,7 @@ export function Home() {
           <div className="w-full md:w-1/2 h-full flex">
             <div className="flex flex-col justify-center p-4">
               <p className="text-2xl text-black font-bold">
-                WELCOME WORLD WIDE BEST TRANSPORT COMPANY
+                WELCOME WORLD WIDE BEST LOGISTIC COMPANY
               </p>
               <div className="md:flex hidden flex-row align-middle mt-2 mb-4">
                 <div className="inline-block h-[100%] mx-2 p-[1.5px] min-h-[1em] w-0.5 self-stretch bg-deep-orange-600 dark:bg-white/10"></div>

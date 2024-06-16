@@ -10,12 +10,15 @@ export const IMAGE = {
     fc_logo : require('../Assets/Image/fc_logo.png'),
     vip : require('../Assets/Image/vip.png'),
     Caprihans : require('../Assets/Image/Caprihans.png'),
-    lavie : require('../Assets/Image/lavie.png'),
+    lavie : require('../Assets/Image/lavie-logo.avif'),
     ftl : require('../Assets/Image/ftl.png'),
     ptl : require('../Assets/Image/ptl.jpeg'),
     lms : require('../Assets/Image/lms.jpeg'),
     pm : require('../Assets/Image/pm.jpeg'),
     pl : require('../Assets/Image/PL.png'),
+    xpress : require('../Assets/Image/vxpress-logo.png'),
+
+
 
 
 }

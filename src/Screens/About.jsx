@@ -22,6 +22,10 @@ export function About() {
       id: 3,
       icon: IMAGE.scorpion,
     },
+    {
+      id: 4,
+      icon: IMAGE.xpress,
+    },
   ];
 
   const clients = [
@@ -67,22 +71,19 @@ export function About() {
           backgroundImage: `url(${banner})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          zIndex: "10",
         }}
       >
-        <div className="text-center text-white md:text-start w-full md:p-20">
-          <p className="text-4xl font-bold md:w-full md:text-start">
-            Welcome to Our Company
-          </p>
-          <p className="text-lg font-light mt-2">
+        <div className="text-center text-white w-full md:p-20 p-2">
+          <p className="text-3xl md:text-4xl font-bold">Welcome to Our Company</p>
+          <p className="text-md md:text-lg font-light mt-2">
             Delivering excellence in transportation and logistics
           </p>
           <Button className="mt-4 bg-deep-orange-600">Learn More</Button>
         </div>
       </div>
 
-      <div className="w-full flex justify-center p-3">
-        <div className="w-full lg:w-2/3 h-auto bg-white shadow-lg flex flex-col lg:flex-row gap-5 rounded-xl">
+      <div className="w-full flex justify-center p-3 bg-white">
+        <div className="w-full lg:w-2/3 h-auto bg-white shadow-lg flex flex-col lg:flex-row gap-0 rounded-lg">
           <div
             className="bg-gray-500 w-full lg:w-1/2 h-[200px] lg:h-auto flex-shrink-0 rounded-lg"
             style={{
@@ -90,47 +91,41 @@ export function About() {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
-          />
-          <div className="w-full lg:w-1/2 flex">
-            <div className="flex flex-col justify-center p-4">
-              <p className="text-3xl font-bold text-black">
-                WELCOME WORLD WIDE BEST TRANSPORT COMPANY
+          >
+            <div className="backdrop-blur h-full w-full p-4 rounded-lg overflow-y-scroll space-y-5">
+              <p className="text-white font-semibold text-md text-justify">
+                Prakash Logistics is a premier logistics company, recognized as a leader in multi-modal express logistics and supply chain services. With operations spanning numerous locations and covering an extensive range of pincodes, we ensure the timely and secure movement of goods.
               </p>
-              <div className="md:flex flex-row hidden items-center mt-4">
-                <div className="h-[60px] mx-2 w-0.5 bg-deep-orange-600"></div>
-                <p className="text-xl font-normal text-black">
-                  Competently implement efficient e-commerce without cross-unit
-                  growth strategies.
+              <p className="text-white font-semibold text-md text-justify">
+                Founded in 2019 under the auspices of SK Courier and Parcel Services, Prakash Logistics is supported by a highly motivated and skilled team. Our extensive and well-established resources enable us to deliver seamless logistics solutions to a diverse array of industries, including high-tech, automotive, engineering, pharmaceuticals, retail, and e-commerce.
+              </p>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2 flex flex-col justify-center p-4">
+            <div className="bg-white h-full w-full rounded-lg">
+              <div className="border-0 border-orange-500">
+                <div className="flex flex-row">
+                  <p className="text-black text-start md:w-44 w-52 border-orange-500 rounded-br-lg p-1 border-b-2 font-semibold text-xl">
+                    OUR VISION
+                  </p>
+                  <div className="w-full h-full py-0 border-t-2 rounded-tl-lg border-l-2 border-orange-500 rounded-r-lg"><p>&#160;</p></div>
+                </div>
+                <p className="text-black font-thin text-justify p-2">
+                  To be amongst the top 3 Express Logistics solutions provider in Indian Subcontinent. We do this through Self Belief and commitment, Widest Reach, Organization Building, IT enabled Infrastructure, SOPs and Brand Building; to create wealth for Indian economy, by bringing efficiency in logistics costs through timely & safe deliveries; thus reducing inventory cost.
                 </p>
               </div>
-              <div className="flex flex-col mt-4">
-                <ul>
-                  <li className="text-lg">
-                    <VerifiedIcon className="text-deep-orange-600 mr-2" />
-                    Unlimited Revisions
-                  </li>
-                  <li className="text-lg">
-                    <VerifiedIcon className="text-deep-orange-600 mr-2" />
-                    Best Fitness Exercise
-                  </li>
-                  <li className="text-lg">
-                    <VerifiedIcon className="text-deep-orange-600 mr-2" />
-                    Combine Fitness and
-                  </li>
-                  <li className="text-lg">
-                    <VerifiedIcon className="text-deep-orange-600 mr-2" />
-                    Best Solutions
-                  </li>
-                </ul>
-                <hr className="w-full h-[2px] bg-deep-orange-600 border-0 rounded my-5" />
-                <div className="flex flex-col lg:flex-row justify-between items-center">
-                  <p className="text-2xl font-bold text-black">
-                    Want to Know About us?
+            </div>
+            <div className="bg-white h-full w-full rounded-lg mt-4">
+              <div className="p-0">
+                <div className="flex flex-row">
+                  <p className="text-black text-start md:w-52 w-64 border-orange-500 rounded-br-lg p-1 border-b-2 font-semibold text-xl">
+                    OUR MISSION
                   </p>
-                  <button className="mt-4 lg:mt-0 bg-deep-orange-600 p-2 rounded-lg px-4 text-white">
-                    ABOUT US
-                  </button>
+                  <div className="w-full h-full py-0 border-t-2 rounded-tl-lg border-l-2 border-orange-500 rounded-r-lg"><p>&#160;</p></div>
                 </div>
+                <p className="text-black font-thin text-justify p-2">
+                  To be No.1 Express Logistics solutions provider in Indian Subcontinent. We do this through Self Belief and commitment, Widest Reach, Organization Building, IT enabled Infrastructure, SOPs and Brand Building; to create wealth for Indian economy, by bringing efficiency in logistics costs through timely & safe deliveries; thus reducing inventory cost.
+                </p>
               </div>
             </div>
           </div>
@@ -138,55 +133,32 @@ export function About() {
       </div>
 
       <div className="flex w-[90%] lg:w-[78%] flex-col items-center my-16">
-        <p className="text-4xl font-semibold text-blue-gray-900 text-center">
-          OUR DELIVERY PARTNERS
-        </p>
+        <p className="text-4xl font-semibold text-blue-gray-900 text-center">OUR BOOKING PARTNERS</p>
 
         <div className="flex flex-wrap w-full justify-evenly items-center mt-8">
           {partner.map((item) => (
-            <div
-              key={item.id}
-              className=" rounded-full h-[150px] lg:h-[200px] w-[150px] lg:w-[200px] flex justify-center items-center m-4"
-            >
-              <img
-                src={item.icon}
-                alt=""
-                className="object-contain h-[100px] lg:h-[150px] w-[100px] lg:w-[150px]"
-              />
+            <div key={item.id} className="rounded-full h-[100px] lg:h-[150px] w-[100px] lg:w-[150px] flex justify-center items-center m-4">
+              <img src={item.icon} alt="" className="object-contain h-[80px] lg:h-[100px] w-[80px] lg:w-[100px]" />
             </div>
           ))}
         </div>
-        <p className="text-4xl font-semibold text-blue-gray-900 mt-16">
-          5 Years of <span className="text-primary tracking-widest">Trust</span>
-        </p>
+        <p className="text-4xl font-semibold text-blue-gray-900 mt-16">6 Years of <span className="text-primary tracking-widest">Trust</span></p>
       </div>
 
       <div className="flex w-[90%] lg:w-[78%] flex-col items-center my-16">
-        <p className="text-4xl font-semibold text-blue-gray-900 text-center">
-          TRUSTED BY OUR 148+ CLIENTS
-        </p>
+        <p className="text-4xl font-semibold text-blue-gray-900 text-center">TRUSTED BY OUR 148+ CLIENTS</p>
         <Marquee gradient={true} gradientColor="white">
-          {" "}
           <div className="flex flex-wrap w-full justify-evenly items-center mt-8">
             {clients.map((item) => (
-              <div
-                key={item.id}
-                className=" rounded-full h-[150px] lg:h-[200px] w-[150px] lg:w-[200px] flex justify-center items-center m-4"
-              >
-                <img
-                  src={item.icon}
-                  alt=""
-                  className="object-contain h-[100px] lg:h-[150px] w-[100px] lg:w-[150px] rounded-full"
-                />
+              <div key={item.id} className="rounded-full h-[100px] lg:h-[150px] w-[100px] lg:w-[150px] flex justify-center items-center m-4">
+                <img src={item.icon} alt="" className="object-contain h-[80px] lg:h-[100px] w-[80px] lg:w-[100px] rounded-full" />
               </div>
             ))}
           </div>
         </Marquee>
-        <p className="text-4xl font-semibold text-blue-gray-900 mt-16 text-center">
-          And Many{" "}
-          <span className="text-primary tracking-widest">Moreeeeeeee</span>
-        </p>
+        <p className="text-4xl font-semibold text-blue-gray-900 mt-16 text-center">And Many <span className="text-primary tracking-widest">More...</span></p>
       </div>
+
       <div className="w-full h-full">
         <Help />
       </div>
