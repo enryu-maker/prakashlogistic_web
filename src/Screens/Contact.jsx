@@ -31,10 +31,10 @@ export function Contact() {
     <div className="w-full h-auto flex flex-col items-center ">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Contact Pakash Logistics: Get in Touch Today</title>
+        <title>Contact Prakash Logistics: Get in Touch Today</title>
         <meta
           name="description"
-          content="Contact Pakash Logistics today for reliable freight and transport solutions. Our experienced team is ready to assist you with your logistics needs. Reach out to us for inquiries, quotes, or to discuss partnership opportunities"
+          content="Contact Prakash Logistics today for reliable freight and transport solutions. Our experienced team is ready to assist you with your logistics needs. Reach out to us for inquiries, quotes, or to discuss partnership opportunities"
         />
       </Helmet>
       <ToastContainer /> {/* Toast Container for displaying toast messages */}

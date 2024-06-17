@@ -59,10 +59,10 @@ export function About() {
     <div className="w-full flex flex-col items-center bg-white  ">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>About Pakash Logistics: Our Journey and Commitment</title>
+        <title>About Prakash Logistics: Our Journey and Commitment</title>
         <meta
           name="description"
-          content="Learn about Pakash Logistics and our commitment to delivering excellence in transportation services. Discover our journey, values, and dedication to providing reliable and efficient logistics solutions tailored to your needs"
+          content="Learn about Prakash Logistics and our commitment to delivering excellence in transportation services. Discover our journey, values, and dedication to providing reliable and efficient logistics solutions tailored to your needs"
         />
       </Helmet>
       <div

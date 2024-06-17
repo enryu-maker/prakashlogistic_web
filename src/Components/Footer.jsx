@@ -1,6 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import { IMAGE } from "../Assets/Images";
-
+import footer from "../Images/footer.png";
 const LINKS = [
   {
     title: "Product",
@@ -59,16 +59,17 @@ export function Footer() {
         </div>
 
         <div className="py-7 border-t border-gray-700">
+          <div className="flex items-center justify-center">
+            <span className="text-gray-400">
+              © <a href="https://www.nerdtech.in" className="underline h-full w-full">NerdTech</a>2024, All rights reserved.
+            </span>
+          </div>
           <div className="flex md:flex-col items-center justify-center">
             <span className="text-gray-400">
-              <a href="">PrakashLogistics</a> designed by NerdTech.
+              <img src={footer} className="w-full h-full -my-5"/>
             </span>
           </div>
-          <div className="flex items-center justify-center">
-            <span className="text-gray-400 ">
-              ©<a href="">NerdTech</a>2024, All rights reserved.
-            </span>
-          </div>
+          
         </div>
       </div>
     </footer>

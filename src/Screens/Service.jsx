@@ -81,11 +81,11 @@ export function Service() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          Our Services: Comprehensive Logistics Solutions by Pakash Logistics
+          Our Services: Comprehensive Logistics Solutions by Prakash Logistics
         </title>
         <meta
           name="description"
-          content="Explore Pakash Logistics' comprehensive range of logistics services tailored to meet your transportation needs. From local deliveries to international freight, we offer reliable and efficient solutions for businesses of all sizes. Discover how we can streamline your logistics operations and ensure timely deliveries every time"
+          content="Explore Prakash Logistics' comprehensive range of logistics services tailored to meet your transportation needs. From local deliveries to international freight, we offer reliable and efficient solutions for businesses of all sizes. Discover how we can streamline your logistics operations and ensure timely deliveries every time"
         />
       </Helmet>
       <div

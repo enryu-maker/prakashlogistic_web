@@ -59,7 +59,7 @@ export function Home() {
         <title>Pakash Logistics: Reliable Freight and Transport Solutions</title>
         <meta
           name="description"
-          content="Pakash Logistics offers reliable and efficient freight and transport solutions tailored to your needs. Our experienced team ensures secure and timely deliveries, whether local or international. Trust Pakash Logistics for excellence in logistics services, delivering peace of mind with every shipment"
+          content="Prakash Logistics offers reliable and efficient freight and transport solutions tailored to your needs. Our experienced team ensures secure and timely deliveries, whether local or international. Trust Pakash Logistics for excellence in logistics services, delivering peace of mind with every shipment"
         />
       </Helmet>
       <div className="w-full h-full z-0">

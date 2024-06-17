@@ -1,7 +1,6 @@
 import React from "react";
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
-
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -21,7 +20,7 @@ export default function Bar() {
       </div>
       <div className="flex flex-row items-center space-x-4">
         {/* <XIcon className="text-white" /> */}
-        <a href="https://www.facebook.com/profile.php?id=61560697245578&mibextid=ZbWKwL"> <FacebookIcon className="text-white"/></a>
+        <a href="https://www.facebook.com/profile.php?id=61561197296134&mibextid=ZbWKwL"> <FacebookIcon className="text-white"/></a>
         <a href="https://www.linkedin.com/company/prakashlogistics/"> <LinkedInIcon className="text-white"/></a>
         <a href="https://www.instagram.com/prakash.logistics_?utm_source=qr&igsh=djJrNHJlNzlmeDd2"> <InstagramIcon className="text-white"/></a>
       </div>
